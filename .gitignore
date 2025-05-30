@@ -1,0 +1,47 @@
+# .gitignore
+
+# Veri dosyaları
+data/
+*.npy
+*.csv
+
+# Model dosyaları
+models/
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Geçici dosyalar
+*.tmp
+*.temp

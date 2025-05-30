@@ -1,0 +1,18 @@
+Best Hyperparameters for Problem C
+==================================================
+
+Validation MAE: 2.1945
+
+Model Architecture:
+------------------------------
+Conv2D Layer 1 Number of Filter: 24
+Conv2D Layer 2 Number of Filter: 48
+Conv2D Layer 3 Number of Filter: 96
+Dense Layer 1 unit: 384
+Dense Layer 2 unit: 64
+\Teaining Parameters:
+------------------------------
+Learning Rate: 0.005
+L2 Regularization: 0.01
+Batch Size: 64
+
