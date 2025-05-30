@@ -30,3 +30,16 @@ For detailed results and analysis, you can review the notebook. Model performanc
 - TensorFlow 2.12
 - NumPy, Pandas, Matplotlib, Seaborn
 - Jupyter Notebook
+
+## 📌 Important Notes
+
+### Data and Model Files
+There are no `data/` and `models/` folders in this repository. Reasons for this:
+- Model files are large and have not been uploaded to GitHub
+- These folders will be created automatically when you run the notebook
+- Data can be reproduced with functions in the notebook
+
+To run the project:
+1. Open the notebook and run the cells in order
+2. Data generation functions will automatically create the `data/` folder
+3. The `models/` folder will be created during model training
